@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Comic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Marvel.jpg">
+    <script src="https://kit.fontawesome.com/97793520ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="Images/Marvel.jpg" alt="Marvel logo" style="width: 100px;" />
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Product Feature</a></li>
+                    <li><a class="nav-link" href="#how-it-works">Demo</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container"></div>
+
+        <section id="hero">
+            <h2>Notify on new Movies, Games, Comic</h2>
+            <form id="form" onsubmit="noSubmit(event)" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Submit" class="btn" />
+            </form>
+            <script>
+                function noSubmit(e) {
+                    e.preventDefault();
+                }
+            </script>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-solid fa-book-journal-whills"></i></div>
+                    <div class="desc">
+                        <h2>Premium Comics</h2>
+                        <p>
+                            Experience Marvel's Infinity Comics available only on Marvel Unlimited. Plus gain instant
+                            access to over 29000 digital comics with unlimited downloads.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa-solid fa-face-grin fa fa-3x"></i></div>
+                    <div class="desc">
+                        <h2>Best Content</h2>
+                        <p>
+                            Marvel Provides you the best content.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Best Storyline</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no boring story or
+                            copyright story
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe id="video" height="315"
+                    src="https://www.youtube-nocookie.com/embed/aWzlQ2N6qqg?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="bass">
+                    <div class="level">Scarlet Witch Vol. 1: Witches' Road</div>
+                    <br>
+                    <h2>&#8377 1100</h2>
+                    <ol>
+                        <li>Print length: 112 pages</li>
+                        <li>Language: English</li>
+                        <li>Publisher: Marvel</li>
+                        <li>Publication date: 19 July 2016</li>
+                    </ol>
+                    <button class="btn"><a href="https://www.amazon.in/Scarlet-Witch-Vol-James-Robinson/dp/078519682X/ref=sr_1_3?crid=2YC169WSPIS4Z&keywords=scarlet+witch+comic&qid=1656252592&sprefix=scarlet+witch+comic%2Caps%2C283&sr=8-3">Buy</a></button>
+                </div>
+                <div class="product" id="tenor">
+                    <div class="level">Thor Vol. 1: The Goddess Of Thunder</div>
+                    <h2> &#8377 700</h2>
+                    <ol>
+                        <li>Print length: 131 pages</li>
+                        <li>Language: English</li>
+                        <li>Publisher: Marvel</li>
+                        <li>Publication date: 26 May 2015</li>
+                    </ol>
+                    <button class="btn"><a href="https://www.amazon.in/Thor-Vol-Goddess-Thunder-2014-2015-ebook/dp/B00VU2BKQA/ref=reads_cwrtbar_sccl_1_6/258-3224683-6029669?pd_rd_w=IeLt8&content-id=amzn1.sym.ef6fb79a-c977-4b2e-bda4-823c17eb4066&pf_rd_p=ef6fb79a-c977-4b2e-bda4-823c17eb4066&pf_rd_r=MKH92KEC08BQ0QG3AWSW&pd_rd_wg=sGPaf&pd_rd_r=089ebf92-5165-4929-8a10-80291279036b&pd_rd_i=B00VU2BKQA&psc=1" target="_blank">Buy</a></button>
+                </div>
+                <div class="product" id="valve">
+                    <div class="level">Avengers: Time Runs Out - Vol. 4</div>
+                    <br>
+                    <h2> &#8377 1200</h2>
+                    <ol>
+                        <li>Print length: 152 pages</li>
+                        <li>Language: English</li>
+                        <li>Publisher: Hachette Book Group Us Agency</li>
+                        <li>Publication date: 1 March 2016</li>
+                    </ol>
+                    <button class="btn"><a href="https://www.amazon.in/Avengers-Time-Runs-Vol-2016/dp/0785192255/ref=sr_1_1_sspa?crid=1IT5FJ3N3PK7O&keywords=avenger+comic&qid=1656252945&s=digital-text&sprefix=avenger+comic%2Cdigital-text%2C393&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNjRZTFBYN1VNT0hXJmVuY3J5cHRlZElkPUEwMDQxOTU1NzlGUzVGWExaMlE2JmVuY3J5cHRlZEFkSWQ9QTEwMjk1NDIySzNPQ0UyOVpJRThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">Buy</a></button>
+                </div>
+            </section>
+            <footer>
+                <span>Copyright 2022, Marvel</span>
+            </footer>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <p>Reference</p>
+                <p><a href="https://www.freecodecamp.org/" style="color: blue;">@Freecodecamp</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
